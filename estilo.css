@@ -1,0 +1,101 @@
+body {
+	background-color: #e8dcb5;
+}
+
+
+
+#izquierda {
+	width: 20%;
+	float: left;
+	margin-top: 30px;
+	padding: 20px;
+	position: fixed;
+}
+
+#foto {
+	width: 150px;
+	height: 150px;
+	border: 3px solid black;
+	border-radius: 15px;
+}
+
+#derecha {
+	border: 3px solid black;
+	background-color: #a67a5b;
+	width: 70%;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	float: right;
+	padding: 20px;
+}
+
+#derecha p, h4, h1 {
+	background-color: #a67a5b;
+}
+
+#derecha h1 {
+	font-size: 45px;
+}
+
+#derecha h2 {
+	background-color: #d5b895;
+	color: white;
+	font-size: 30px;
+}
+#derecha h4 {
+	color: #793f0d;
+	font-weight: bold;
+	font-size: 25px;
+}
+#derecha p {
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#izquierda a {
+	color: black;
+	font-weight: bold;
+	background-color: #c19770;
+	text-decoration: none;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+
+.redes {
+	width:50px;
+	height: 50px;
+	background-color: #a67a5b;
+}
+
+#izquierda a:active {
+	background-color: #d5b895;
+}
+
+#izquierda a:hover {
+	background-color: brown;
+	color: white;
+}
+
+#derecha img {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#texto p {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+#texto {
+	background-color: #a67a5b;
+}
+
+#derecha a {
+	background-color: #a67a5b;
+}
